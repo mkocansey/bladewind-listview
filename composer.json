@@ -18,8 +18,8 @@
     ],
     "require": {
         "php": ">=8.1",
-        "mkocansey/bladewind-core": "^4.2.1",
-        "mkocansey/bladewind-script": "^4.2.1"
+        "mkocansey/bladewind-core": "^4.3",
+        "mkocansey/bladewind-script": "^4.3"
     },
     "autoload": {
         "psr-4": {
@@ -29,7 +29,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mkocansey\\Bladewind\\Listview\\ListviewServiceProvider"
+                "Mkocansey\\Bladewind\\Listview\\BladewindListviewServiceProvider"
             ]
         }
     }
